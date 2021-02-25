@@ -6,7 +6,7 @@ body {
 
 #map {
     width: 100%;
-    height: 400px
+    height: 400px;
 }
 
 .btn {
@@ -99,5 +99,5 @@ body {
 .map-link {
     text-decoration: none;
     color: honeydew;
-    margin: 50%
+    margin: 20%
 }
