@@ -37,14 +37,14 @@ map.addControl(new MapboxGeocoder({
     zoom: 4,
     placeholder: 'Try: -40, 170',
     mapboxgl: mapboxgl
-}));
-map.addControl(new mapboxgl.NavigationControl());
-map.addControl(new mapboxgl.GeolocateControl({
+}));map.addControl(new mapboxgl.GeolocateControl({
     positionOptions: {
         enableHighAccuracy: true
     },
     trackUserLocation: true
 }));
+map.addControl(new mapboxgl.NavigationControl());
+
 var coordinatesGeocoder = function (query) {
     var matches = query.match(/^[ ]*(?:Lat: )?(-?d+.?d*)[, ]+(?:Lng: )?(-?d+.?d*)[ ]*$/i);
     if (!matches) {
