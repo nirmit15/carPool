@@ -87,7 +87,7 @@ body {
     cursor: pointer;
     margin-right: 6%;
     color: rgb(246, 246, 252);
-    margin-top: 4%
+    margin-top: 4%;
 }
 
 .form-control {
@@ -99,5 +99,4 @@ body {
 .map-link {
     text-decoration: none;
     color: honeydew;
-    text-align: center;
 }
